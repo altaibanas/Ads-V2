@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدماتنا - إبداع للإعلان والتصاميم والطباعة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- شريط التنقل -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <a href="index.html" class="flex items-center">
+                            <div class="w-10 h-10 bg-gradient-to-r from-purple-600 to-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">إ</div>
+                            <span class="text-2xl font-bold text-gray-800 mr-2">إبداع</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="index.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">الرئيسية</a>
+                    <a href="about.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">من نحن</a>
+                    <a href="services.html" class="py-4 px-2 text-purple-600 border-b-4 border-purple-600 font-semibold">خدماتنا</a>
+                    <a href="portfolio.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">معرض الأعمال</a>
+                    <a href="shop.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">المتجر</a>
+                    <a href="blog.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">المدونة</a>
+                    <a href="contact.html" class="py-4 px-2 text-gray-500 hover:text-purple-600 transition duration-300">اتصل بنا</a>
+                </div>
+                
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li><a href="index.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">الرئيسية</a></li>
+                <li><a href="about.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">من نحن</a></li>
+                <li class="active"><a href="services.html" class="block text-sm px-2 py-4 bg-purple-600 text-white font-semibold">خدماتنا</a></li>
+                <li><a href="portfolio.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">معرض الأعمال</a></li>
+                <li><a href="shop.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">المتجر</a></li>
+                <li><a href="blog.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">المدونة</a></li>
+                <li><a href="contact.html" class="block text-sm px-2 py-4 hover:bg-purple-500 transition duration-300">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- قسم الهيرو -->
+    <section class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">خدماتنا</h1>
+            <p class="text-xl max-w-3xl mx-auto">نقدم مجموعة متكاملة من خدمات الدعاية والإعلان والتصميم والطباعة لتلبية جميع احتياجاتك الإبداعية</p>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات الرئيسية -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">خدماتنا <span class="text-purple-600">المتكاملة</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">استكشف مجموعة خدماتنا الشاملة التي صممت خصيصًا لتحقيق أهدافك الإبداعية والتسويقية</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-bullhorn text-purple-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الدعاية والإعلان</h3>
+                    <p class="text-gray-600 mb-6">حلول إعلانية مبتكرة تشمل الإعلانات الرقمية والتقليدية والتسويق الإبداعي</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>حملات إعلانية متكاملة</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>إعلانات وسائل التواصل الاجتماعي</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تخطيط استراتيجيات التسويق</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+                
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-paint-brush text-blue-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">التصاميم الإبداعية</h3>
+                    <p class="text-gray-600 mb-6">تصاميم جرافيك مبتكرة تشمل الهويات البصرية والبروشورات واللوجوهات</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم الهوية البصرية</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم الشعارات واللوجوهات</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم المواد الترويجية</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+                
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-print text-green-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الطباعة الاحترافية</h3>
+                    <p class="text-gray-600 mb-6">خدمات طباعة عالية الجودة بجميع أنواعها وأحجامها وبأحدث التقنيات</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>طباعة الأوفست والديجيتال</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>طباعة المواد الدعائية</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>طباعة الكتب والمجلات</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+                
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-object-group text-yellow-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الحلول الجرافيكية</h3>
+                    <p class="text-gray-600 mb-6">تصميم جرافيك متكامل للمؤسسات والشركات والأفراد بأحدث الاتجاهات</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم الإنفوجرافيك</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم العبوات والتغليف</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم واجهات المستخدم</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+                
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-photo-video text-red-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">الوسائط المتعددة</h3>
+                    <p class="text-gray-600 mb-6">إنتاج محتوى مرئي ومسموع إبداعي يجذب الجمهور ويعزز الهوية البصرية</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم الفيديوهات المتحركة</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>إنتاج الفيديوهات الترويجية</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم العروض التقديمية</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+                
+                <div class="service-card p-8 hover-lift">
+                    <div class="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-indigo-600 text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">التصميم الرقمي</h3>
+                    <p class="text-gray-600 mb-6">تصميم وتطوير الحلول الرقمية التي تعزز حضورك على الإنترنت وتجربة المستخدم</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم مواقع الويب</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم التطبيقات</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 ml-2"></i>
+                            <span>تصميم واجهات المستخدم</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-purple-600 font-bold hover:text-purple-800 transition duration-300">اكتشف المزيد <i class="fas fa-arrow-left mr-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم عملية العمل -->
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">كيف <span class="text-purple-600">نعمل</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">رحلة إبداعية منظمة تضمن تحقيق أفضل النتائج لمشاريعنا</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">الاستكشاف</h3>
+                    <p class="text-gray-600">نبدأ بفهم متعمق لاحتياجاتك وأهدافك لتحديد أفضل الحلول</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">التخطيط</h3>
+                    <p class="text-gray-600">نضع خطة عمل واضحة وجدول زمني محدد لضمان نجاح المشروع</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">التنفيذ</h3>
+                    <p class="text-gray-600">ننفذ المشروع باحترافية عالية مع الحفاظ على التواصل المستمر</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">4</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">التسليم</h3>
+                    <p class="text-gray-600">نسلم المشروع النهائي مع ضمان الجودة وتقديم الدعم اللازم</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">أسئلة <span class="text-purple-600">شائعة</span></h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">إجابات على الأسئلة الأكثر شيوعًا حول خدماتنا</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-gray-100 rounded-lg p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">ما هي مدة تنفيذ مشروع تصميم هوية بصرية؟</h3>
+                    <p class="text-gray-600">تتراوح مدة تنفيذ مشروع هوية بصرية متكاملة بين 2 إلى 4 أسابيع، depending on the complexity and requirements.</p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-lg p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">هل تقدمون خدمات الطباعة بكميات كبيرة؟</h3>
+                    <p class="text-gray-600">نعم، نقدم خدمات الطباعة بجميع الكميات من الصغيرة إلى الكبيرة، مع خصومات تقدم للكميات الكبيرة.</p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-lg p-6 mb-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">كيف يمكنني متابعة تقدم مشروعي؟</h3>
+                    <p class="text-gray-600">نوفر نظام متابعة عبر الإنترنت يمكنك من خلاله متابعة تقدم مشروعك، بالإضافة إلى اجتماعات دورية مع فريق المشروع.</p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">هل تقدمون خدمات الصيانة والدعم بعد التسليم؟</h3>
+                    <p class="text-gray-600">نعم، نقدم حزمة دعم وصيانة لمدة 3 أشهر بعد تسليم المشروع، ويمكن تمديدها وفقًا لاحتياجاتك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section class="py-20 gradient-bg text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6">مستعد لبدء مشروعك الإبداعي؟</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">اتصل بنا اليوم واحصل على استشارة مجانية لمشروعك القادم</p>
+            <a href="contact.html" class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-full font-bold text-lg transition duration-300">اتصل بنا الآن</a>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-purple-600 to-blue-500 rounded-full flex items-center justify-center text-white font-bold text-xl">إ</div>
+                        <span class="text-2xl font-bold mr-2">إبداع</span>
+                    </div>
+                    <p class="text-gray-400">شريكك الإبداعي في عالم الدعاية والإعلان والتصاميم والطباعة والجرافيك</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">روابط سريعة</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition duration-300">الرئيسية</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white transition duration-300">من نحن</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white transition duration-300">خدماتنا</a></li>
+                        <li><a href="portfolio.html" class="text-gray-400 hover:text-white transition duration-300">معرض الأعمال</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">خدماتنا</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">الدعاية والإعلان</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">التصاميم الإبداعية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">الطباعة الاحترافية</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">الحلول الجرافيكية</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">تابعنا</h3>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-purple-600 transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-purple-600 transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-purple-600 transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-purple-600 transition duration-300">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>جميع الحقوق محفوظة &copy; إبداع 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>
